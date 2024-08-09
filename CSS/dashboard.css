@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-width: max-content;
+   
+}
+
+
+
+h1, h2 {
+    text-align: center;
+    color: brown;
+    position: relative;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.container table {
+    width: 100%;
+    min-width: 95%;
+    text-align: left;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container table {
+        width: fit-content; /* Adjust max height for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container table {
+        width: fit-content;/* Adjust max height for even smaller screens */
+    }
+}
+
+table, th, td {
+    border: 2px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 10px;
+}
