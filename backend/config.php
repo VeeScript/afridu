@@ -1,5 +1,5 @@
 <?php
-$host = 'postgresql://root:DRgkomzpSFEjRtA2vZ37MlDnJ9uIzpex@dpg-cqqlsbaj1k6c73dk1n7g-a.frankfurt-postgres.render.com/afridu'; // e.g., db-postgresql-nyc1-12345-do-user-67890-0.b.db.ondigitalocean.com
+$host = 'postgresql://root:DRgkomzpSFEjRtA2vZ37MlDnJ9uIzpex@dpg-cqqlsbaj1k6c73dk1n7g-a/afridu';
 $db = 'afridu'; // e.g., mydatabase
 $user = 'root'; // e.g., doadmin
 $pass = 'DRgkomzpSFEjRtA2vZ37MlDnJ9uIzpex'; // the password you set for the user
